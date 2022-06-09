@@ -30,3 +30,5 @@
 - tsc - compile all TS files
 - tsc --init - create tsconfig.json
 - tsc -w - compile and watch file
+
+![Cheat sheet](https://www.freecodecamp.org/news/content/images/2022/01/TypeScript-Cheat-Sheet--DARK-.png)
