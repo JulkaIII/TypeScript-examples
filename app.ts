@@ -107,6 +107,7 @@ logAndEcho("Hi there!").split(" ");
 // define parameter types
 // array of objects type { res: number }[]
 // function print: () => void
+// ! - type it to define that something cannot be null
 
 // Type Aliases->   create your own type ->   type CalculationResults = { res: number; print: () => void }[];
 // literal types->  printMode: string
