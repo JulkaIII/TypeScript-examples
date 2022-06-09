@@ -4,21 +4,18 @@ Learn TypeScript
 ### Notes:
 
 ###### Types
-number
-
-string
-
-function
-
-void - means this function has no return statement, doesn't return anything or returns undefined
-undefined - means this function has return statement and returns undefined
-object - very general. cannot get a value from it like obj.prop. So USE { key: type}
-array
+- number
+- string
+- function
+- void - means this function has no return statement, doesn't return anything or returns undefined
+- undefined - means this function has return statement and returns undefined
+- object - very general. cannot get a value from it like obj.prop. So USE { key: type}
+- array
 
 ###### Define parameter types
-array of objects type { res: number }[]
-function print: () => void
-! - type it to define that something cannot be null
+- array of objects type { res: number }[]
+- function print: () => void
+- ! - type it to define that something cannot be null
 
 ###### More
 Type Aliases->   create your own type ->   type CalculationResults = { res: number; print: () => void }[];
