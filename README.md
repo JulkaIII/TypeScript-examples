@@ -1,7 +1,7 @@
 # TypeScript-examples
 Learn TypeScript
 
-### Notes:
+### :page_facing_up: Notes:
 
 ###### Types
 - number
@@ -18,16 +18,16 @@ Learn TypeScript
 - ! - type it to define that something cannot be null
 
 ###### More
-Type Aliases->   create your own type ->   type CalculationResults = { res: number; print: () => void }[];
-literal types->  printMode: string
-Union Types->   printMode: string | number
-combine liteal and union type->  "console | "alert"  --- concrete values for type , console OR alert. dowsnt allow other values.
-Interfaces-> are good instead of type to force classes to have structure
-Generic Types-> when two types working together. it's combination of multiple types. Array<any>  - type is array and inside array s anything.  e.g., CalculationContainer[] ->>> Array<CalculationContainer>  - means array of CalculationContainer
+- Type Aliases->   create your own type ->   type CalculationResults = { res: number; print: () => void }[];
+- literal types->  printMode: string
+- Union Types->   printMode: string | number
+- combine liteal and union type->  "console | "alert"  --- concrete values for type , console OR alert. dowsnt allow other values.
+- Interfaces-> are good instead of type to force classes to have structure
+- Generic Types-> when two types working together. it's combination of multiple types. Array<any>  - type is array and inside array s anything.  e.g., CalculationContainer[] ->>> Array<CalculationContainer>  - means array of CalculationContainer
 
 ###### About TS files
-tsc other.ts - to compile file
-tsc app.ts
-tsc - compile all TS files
-tsc --init - create tsconfig.json
-tsc -w - compile and watch file
+- tsc other.ts - to compile file
+- tsc app.ts
+- tsc - compile all TS files
+- tsc --init - create tsconfig.json
+- tsc -w - compile and watch file
