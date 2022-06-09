@@ -1,5 +1,4 @@
-# TypeScript-examples
-Learn TypeScript
+# TypeScript Introduction
 
 ### :page_facing_up: Notes:
 
