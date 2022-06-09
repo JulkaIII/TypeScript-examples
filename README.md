@@ -5,8 +5,11 @@ Learn TypeScript
 
 ###### Types
 number
+
 string
+
 function
+
 void - means this function has no return statement, doesn't return anything or returns undefined
 undefined - means this function has return statement and returns undefined
 object - very general. cannot get a value from it like obj.prop. So USE { key: type}
